@@ -1,7 +1,6 @@
 import express, { Response, Request } from "express";
 import cors from "cors";
 import bodyParser from "body-parser";
-import session from "express-session";
 
 const app = express();
 app.use(cors());
